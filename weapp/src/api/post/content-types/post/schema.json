@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "mensagem": {
+      "type": "blocks",
+      "required": true
+    },
+    "expirationdate": {
+      "type": "datetime",
+      "required": true,
+      "default": "2024-02-21T03:00:00.000Z"
+    }
+  }
+}
